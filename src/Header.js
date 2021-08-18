@@ -7,7 +7,9 @@ function Header() {
     return (
         <div className='header'>
             <h2> I am the Header</h2>
-            <PersonIcon fontSize="large" className='personIcon' />
+            <IconButton>
+                <PersonIcon fontSize="large" className='personIcon' />
+            </IconButton>
         </div>
     )
 }
