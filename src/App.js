@@ -12,6 +12,9 @@ function App() {
 
 
       {/* Tinder Cards */}
+      
+
+      
       {/* Swipe Buttons */}
 
     </div>
