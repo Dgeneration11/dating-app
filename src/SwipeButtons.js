@@ -29,5 +29,4 @@ function SwipeButtons() {
         </div>
     )
 }
-
 export default SwipeButtons
