@@ -1,6 +1,8 @@
 import React from 'react'
+import TinderCard from 'react-tinder-card';
 import './App.css';
 import Header from './Header';
+import Cards from './Cards';
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
 
 
       {/* Tinder Cards */}
-      
+      <Cards />
 
-      
+
       {/* Swipe Buttons */}
 
     </div>
@@ -22,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+
