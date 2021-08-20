@@ -3,6 +3,7 @@ import TinderCard from 'react-tinder-card';
 import './App.css';
 import Header from './Header';
 import Cards from './Cards';
+import SwipeButtons from './SwipeButtons';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
 
       {/* Swipe Buttons */}
+      <SwipeButtons />
 
     </div>
   );
