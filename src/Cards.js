@@ -48,10 +48,6 @@ function Cards() {
 
 export default Cards
 
-
-
-
-
 /* [
         {
             name: 'Sophie',
