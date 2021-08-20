@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cards from './dbCards.js';
+import cors from 'cors';
 
 //App config
 const app = express();
@@ -8,7 +9,8 @@ const PORT = process.env.PORT || 8001;
 const connection_url = `mongodb+srv://dgen:dgen@cluster0.isacn.mongodb.net/datingDB?retryWrites=true&w=majority`
 
 // Middllwares
-
+app.use(express.json());
+app.use(cors());
 
 // DB config
 mongoose.connect(connection_url, {
